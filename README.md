@@ -27,6 +27,13 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 <details>
  <summary><b> ✐ Info Bot2</b></summary>
 
+* Este proyecto **Contiene una autoreconexión de SubBots, creditos a Rey Edimiom**
+
+</details>
+
+<details>
+ <summary><b> ✐ Info Bot3</b></summary>
+
 **Buenas Soy Cuervo El Editor Y Creador De Gran Parte Del Bot Para Decir Que Si Lo Vas A Editar Dejes Tu Estrella Y Disfruta De Borrar Los Créditos Que Están En Absolutamente Todo El Bot Adiós**
 
 </details>
