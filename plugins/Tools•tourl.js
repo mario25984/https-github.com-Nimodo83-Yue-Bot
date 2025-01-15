@@ -30,7 +30,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     if (!url) return m.reply('✐ No se pudo subir la imagen.');
 
-    m.reply(`✧ Aquí está tu URL:\n> » ${url}`);
+    m.reply(`✎ *U P L O A D - C A T B O X*\n\n${url}\n\n${dev}`);
   } catch (error) {
     console.error(error);
     m.reply('✐ Hubo un error al intentar convertir la imagen en una URL.');
@@ -40,6 +40,5 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['tourl'];
 handler.tags = ['tools'];
 handler.command = ['tourl'];
-handler.register = true;
 
 export default handler;
