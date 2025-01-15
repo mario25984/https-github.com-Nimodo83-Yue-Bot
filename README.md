@@ -27,7 +27,7 @@ Contacta Con ઈ𓅇𝐂𝐮𝐞𝐫𝐯𝐨𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐎𝐅
 <details>
  <summary><b> ✐ Info Bot2</b></summary>
 
-* Este proyecto **Contiene una autoreconexión de SubBots, creditos a Rey Edimiom**
+* Este proyecto **Contiene una autoreconexión de SubBots, creditos a Rey Endimion**
 
 </details>
 
