@@ -51,6 +51,7 @@ global.nameqr = 'Yue-Bot'
 global.namebot = 'YueBot'
 global.sessions = 'YueSession'
 global.jadi = 'YueJadiBot'
+global.yueJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
