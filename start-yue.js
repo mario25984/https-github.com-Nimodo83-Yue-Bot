@@ -286,6 +286,31 @@ isInit = false
 return true
 };
 
+/** Arranque nativo para subbots by - ReyEndymion >> https://github.com/ReyEndymion
+ */
+global.rutaJadiBot = join(__dirname, '../YueJadiBot')
+
+if (global.yueJadibts) {
+if (!existsSync(global.rutaJadiBot)) {
+mkdirSync(global.rutaJadiBot, { recursive: true }) 
+console.log(chalk.bold.cyan(`La carpeta: ${jadi} se creó correctamente.`))
+} else {
+console.log(chalk.bold.cyan(`La carpeta: ${jadi} ya está creada.`)) 
+}
+
+const readRutaJadiBot = readdirSync(rutaJadiBot)
+if (readRutaJadiBot.length > 0) {
+const creds = 'creds.json'
+for (const gjbts of readRutaJadiBot) {
+const botPath = join(rutaJadiBot, gjbts)
+const readBotPath = readdirSync(botPath)
+if (readBotPath.includes(creds)) {
+yueJadiBot({pathYueJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
+}
+}
+}
+}
+
 const pluginFolder = global.__dirname(join(__dirname, './plugins/index'))
 const pluginFilter = (filename) => /\.js$/.test(filename)
 global.plugins = {}
